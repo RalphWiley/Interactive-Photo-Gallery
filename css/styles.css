@@ -13,7 +13,7 @@ img {
     padding: 50px; 
 }
 
-.search-input {
+#search-input {
     width: 50%;
     height: 50px;
     border-radius: 5px;
@@ -39,4 +39,20 @@ input:focus {
 .grid-container > div {
   text-align: center;
   padding: 5px 0;
+}
+
+.mark {
+  background-color: #d7ffe7 !important
+}
+
+.mark .gsearch{
+  font-size: 20px
+}
+
+.unmark {
+  background-color: #e8e8e8 !important
+}
+
+.unmark .gsearch{
+  font-size: 10px
 }
